@@ -50,7 +50,8 @@ public:
             return false;
         }
     }
-
+    
+    // not a operation of Stack
     void Print()
     {
         cout<<"Stack: ";

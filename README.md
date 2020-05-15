@@ -6,3 +6,4 @@ I am following this Youtube Playlist by mycodeschool <br>  https://www.youtube.c
 <br> Also I am solving hackerrank questions of Data Structures topicwise, So I can test myself.
 
 > Done with Linked-Lists (11 May, 2020)
+> Done with Stack (15 May, 2020)

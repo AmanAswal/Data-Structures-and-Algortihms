@@ -59,7 +59,7 @@ void mergeSort(int a[],int start,int end){
 int main(){
 
 	int n;
-  cout<<"Enter size of array";
+  cout<<"Enter size of array: ";
 	cin>>n;
   int a[n];
   cout<<"Enter elements: ";

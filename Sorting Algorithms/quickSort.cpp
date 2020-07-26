@@ -11,7 +11,7 @@ int Partition(int *arr, int start, int end){
             partitionIndex++;
         }
     }
-    swap(arr[pivot], arr[partitionIndex]);
+    swap(pivot, arr[partitionIndex]);
 
     return partitionIndex;
 }

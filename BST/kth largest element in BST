@@ -3,22 +3,22 @@ void kthLargestUtil(Node *root, int k, int &c, int &res)
     if (root == NULL || c >= k)
         return;
     
-    kthLargestUtil(root->right, k, c, res);
+    kthLargestUtil(root->right, k, c, res); // go to right
     
-    c++;
+    c++; // increment count
     if (c == k)
     {
-		res = root->data;
+	res = root->data; // store the answer in res
         return;
     }
     
-    kthLargestUtil(root->left, k, c, res);
+    kthLargestUtil(root->left, k, c, res); // go to left
 }
 
 int kthLargest(Node *root, int k)
 {
     int c = 0;
-    int res = -1;
+    int res = -1; // -1 because if the asked largest is not present, return -1.
     kthLargestUtil(root, k, c, res);
     return res;
 }

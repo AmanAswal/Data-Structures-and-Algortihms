@@ -8,6 +8,7 @@ class Activity{
     int finish;
 };
 
+// A utility function that is used for sorting activities according to finish time
 bool activityCompare(Activity s1, Activity s2){
     return (s1.finish < s2.finish);    
 }
